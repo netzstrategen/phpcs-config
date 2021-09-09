@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="netzstrategen PHP Coding Standards">
+<ruleset name="netzstrategen">
   <description>netzstrategen PHP Coding Standards</description>
 
   <exclude-pattern>*/vendor/*</exclude-pattern>
