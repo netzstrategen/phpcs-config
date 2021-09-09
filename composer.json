@@ -1,0 +1,17 @@
+{
+  "name": "netzstrategen/phpcs-config",
+  "description": "PHP CodeSniffer config package.",
+  "require": {
+  },
+  "type": "phpcodesniffer-standard",
+  "authors": [
+    {
+      "name": "Fabian Marz",
+      "email": "fabian@netzstrategen.com"
+    }
+  ],
+  "require-dev": {
+    "drupal/coder": "^8.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
+  }
+}
