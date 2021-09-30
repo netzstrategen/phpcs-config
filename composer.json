@@ -1,9 +1,7 @@
 {
   "name": "netzstrategen/phpcs-config",
-  "description": "PHP CodeSniffer config package.",
-  "require": {
-  },
   "type": "phpcodesniffer-standard",
+  "description": "PHP CodeSniffer config package.",
   "authors": [
     {
       "name": "Fabian Marz",
