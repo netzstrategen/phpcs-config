@@ -29,6 +29,7 @@
 
     <!-- Custom exclusions. -->
     <exclude name="Drupal.Commenting.InlineComment.DocBlock"/>
+    <exclude name="Drupal.NamingConventions.ValidFunctionName"/>
   </rule>
   <rule ref="Drupal.Commenting.FunctionComment">
     <exclude name="Drupal.Commenting.FunctionComment.TypeHintMissing"/>
