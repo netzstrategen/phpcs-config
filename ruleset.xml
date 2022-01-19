@@ -29,6 +29,13 @@
 
     <!-- Custom exclusions. -->
     <exclude name="Drupal.Commenting.InlineComment.DocBlock"/>
+    <!-- Our guideline is to use the hook name as method name, in snake_case.
+         The exception to this can be cases in which the same callback is
+         registered for multiple hooks (potentially even having different
+         signatures). In that case, a custom method name can describe the method
+         better, but this is not a must and depends on the situation. A custom
+         method name uses camelCase. Also to indicate that it is not referring
+         to a hook name. -->
     <exclude name="Drupal.NamingConventions.ValidFunctionName"/>
   </rule>
   <rule ref="Drupal.Commenting.FunctionComment">
